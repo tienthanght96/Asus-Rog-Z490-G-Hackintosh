@@ -17,50 +17,50 @@
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-AWAC.aml</string>
-				<key>Enabled</key>
-				<true/>
 				<key>Path</key>
 				<string>SSDT-AWAC.aml</string>
+				<key>Enabled</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-EC-USBX-DESKTOP.aml</string>
-				<key>Enabled</key>
-				<true/>
 				<key>Path</key>
 				<string>SSDT-EC-USBX-DESKTOP.aml</string>
+				<key>Enabled</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-GPRW.aml</string>
-				<key>Enabled</key>
-				<true/>
 				<key>Path</key>
 				<string>SSDT-GPRW.aml</string>
+				<key>Enabled</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-PLUG-DRTNIA.aml</string>
-				<key>Enabled</key>
-				<true/>
 				<key>Path</key>
 				<string>SSDT-PLUG-DRTNIA.aml</string>
+				<key>Enabled</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-RHUB.aml</string>
-				<key>Enabled</key>
-				<true/>
 				<key>Path</key>
 				<string>SSDT-RHUB.aml</string>
+				<key>Enabled</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-SBUS-MCHC.aml</string>
-				<key>Enabled</key>
-				<true/>
 				<key>Path</key>
 				<string>SSDT-SBUS-MCHC.aml</string>
+				<key>Enabled</key>
+				<true/>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -237,7 +237,7 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)_1</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>BwCbPg==</data>
@@ -310,6 +310,15 @@
 				<key>layout-id</key>
 				<data>BwAAAA==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>name</key>
+				<data>I2Rpc3BsYXk=</data>
+				<key>IOName</key>
+				<string>#display</string>
+				<key>class-code</key>
+				<data>/////w==</data>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -319,346 +328,346 @@
 		<key>Add</key>
 		<array>
 			<dict>
-				<key>BundlePath</key>
-				<string>AirportItlwm.kext</string>
 				<key>Comment</key>
 				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>AirportItlwm.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>CPUFriendDataProvider.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>CPUFriendDataProvider.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>FakePCIID.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/FakePCIID</string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>FakePCIID.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>BundlePath</key>
 				<string>FakePCIID_Intel_HDMI_Audio.kext</string>
+			</dict>
+			<dict>
 				<key>Comment</key>
 				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
 				<key>BundlePath</key>
 				<string>FakePCIID_Intel_I225-V.kext</string>
+			</dict>
+			<dict>
 				<key>Comment</key>
 				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>Arch</key>
-				<string>Any</string>
 				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>IntelBluetoothFirmware.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelBluetoothFirmware</string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>IntelBluetoothFirmware.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>IntelBluetoothInjector.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>IntelBluetoothInjector.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>IntelMausi.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelMausi</string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>IntelMausi.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>Lilu.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/Lilu</string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>Lilu.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>NVMeFix.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/NVMeFix</string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>NVMeFix.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>RealtekRTL8111.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/RealtekRTL8111</string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>RealtekRTL8111.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>BundlePath</key>
 				<string>USBMap.kext</string>
+			</dict>
+			<dict>
 				<key>Comment</key>
 				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
 				<key>BundlePath</key>
 				<string>USBPower.kext</string>
+			</dict>
+			<dict>
 				<key>Comment</key>
 				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>Arch</key>
-				<string>Any</string>
 				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>VirtualSMC.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VirtualSMC</string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>VirtualSMC.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/WhateverGreen</string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>WhateverGreen.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>AppleALC.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>AppleALC.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>CPUFriend.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/CPUFriend</string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>CPUFriend.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>SMCProcessor.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCProcessor</string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
+				<key>BundlePath</key>
+				<string>SMCProcessor.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>SMCSuperIO.kext</string>
-				<key>Comment</key>
-				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>MinKernel</key>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCSuperIO</string>
 				<key>Arch</key>
 				<string>Any</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
+				<key>BundlePath</key>
+				<string>SMCSuperIO.kext</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -1091,264 +1100,264 @@
 		<key>Tools</key>
 		<array>
 			<dict>
-				<key>Name</key>
-				<string>BootKicker.efi</string>
 				<key>Comment</key>
 				<string>BootKicker.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>BootKicker.efi</string>
+				<key>TextMode</key>
+				<false/>
 				<key>Enabled</key>
 				<true/>
+				<key>Arguments</key>
+				<string></string>
 				<key>Path</key>
 				<string>BootKicker.efi</string>
-				<key>Arguments</key>
-				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>Name</key>
-				<string>ChipTune.efi</string>
 				<key>Comment</key>
 				<string>ChipTune.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>ChipTune.efi</string>
+				<key>TextMode</key>
+				<false/>
 				<key>Enabled</key>
 				<true/>
+				<key>Arguments</key>
+				<string></string>
 				<key>Path</key>
 				<string>ChipTune.efi</string>
-				<key>Arguments</key>
-				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>Name</key>
-				<string>CleanNvram.efi</string>
 				<key>Comment</key>
 				<string>CleanNvram.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>CleanNvram.efi</string>
+				<key>TextMode</key>
+				<false/>
 				<key>Enabled</key>
 				<true/>
+				<key>Arguments</key>
+				<string></string>
 				<key>Path</key>
 				<string>CleanNvram.efi</string>
-				<key>Arguments</key>
-				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>Name</key>
-				<string>ControlMsrE2.efi</string>
 				<key>Comment</key>
 				<string>ControlMsrE2.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>ControlMsrE2.efi</string>
+				<key>TextMode</key>
+				<false/>
 				<key>Enabled</key>
 				<true/>
+				<key>Arguments</key>
+				<string></string>
 				<key>Path</key>
 				<string>ControlMsrE2.efi</string>
-				<key>Arguments</key>
-				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>Name</key>
-				<string>CsrUtil.efi</string>
 				<key>Comment</key>
 				<string>CsrUtil.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>CsrUtil.efi</string>
+				<key>TextMode</key>
+				<false/>
 				<key>Enabled</key>
 				<true/>
+				<key>Arguments</key>
+				<string></string>
 				<key>Path</key>
 				<string>CsrUtil.efi</string>
-				<key>Arguments</key>
-				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>Name</key>
-				<string>GopStop.efi</string>
 				<key>Comment</key>
 				<string>GopStop.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>GopStop.efi</string>
+				<key>TextMode</key>
+				<false/>
 				<key>Enabled</key>
 				<true/>
+				<key>Arguments</key>
+				<string></string>
 				<key>Path</key>
 				<string>GopStop.efi</string>
-				<key>Arguments</key>
-				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>Name</key>
-				<string>KeyTester.efi</string>
 				<key>Comment</key>
 				<string>KeyTester.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>KeyTester.efi</string>
+				<key>TextMode</key>
+				<false/>
 				<key>Enabled</key>
 				<true/>
+				<key>Arguments</key>
+				<string></string>
 				<key>Path</key>
 				<string>KeyTester.efi</string>
-				<key>Arguments</key>
-				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>Name</key>
-				<string>MmapDump.efi</string>
 				<key>Comment</key>
 				<string>MmapDump.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>MmapDump.efi</string>
+				<key>TextMode</key>
+				<false/>
 				<key>Enabled</key>
 				<true/>
+				<key>Arguments</key>
+				<string></string>
 				<key>Path</key>
 				<string>MmapDump.efi</string>
-				<key>Arguments</key>
-				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>Name</key>
-				<string>OpenControl.efi</string>
 				<key>Comment</key>
 				<string>OpenControl.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>OpenControl.efi</string>
+				<key>TextMode</key>
+				<false/>
 				<key>Enabled</key>
 				<true/>
+				<key>Arguments</key>
+				<string></string>
 				<key>Path</key>
 				<string>OpenControl.efi</string>
-				<key>Arguments</key>
-				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>Name</key>
-				<string>OpenShell.efi</string>
 				<key>Comment</key>
 				<string>OpenShell.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>OpenShell.efi</string>
+				<key>TextMode</key>
+				<false/>
 				<key>Enabled</key>
 				<true/>
+				<key>Arguments</key>
+				<string></string>
 				<key>Path</key>
 				<string>OpenShell.efi</string>
-				<key>Arguments</key>
-				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>Name</key>
-				<string>ResetSystem.efi</string>
 				<key>Comment</key>
 				<string>ResetSystem.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>ResetSystem.efi</string>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
 				<key>RealPath</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>ResetSystem.efi</string>
 				<key>TextMode</key>
 				<false/>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+				<key>Path</key>
+				<string>ResetSystem.efi</string>
+				<key>Auxiliary</key>
+				<true/>
 			</dict>
 			<dict>
-				<key>Name</key>
-				<string>RtcRw.efi</string>
 				<key>Comment</key>
 				<string>RtcRw.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>RtcRw.efi</string>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
 				<key>RealPath</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>RtcRw.efi</string>
 				<key>TextMode</key>
 				<false/>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+				<key>Path</key>
+				<string>RtcRw.efi</string>
+				<key>Auxiliary</key>
+				<true/>
 			</dict>
 			<dict>
-				<key>Name</key>
-				<string>TpmInfo.efi</string>
 				<key>Comment</key>
 				<string>TpmInfo.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>TpmInfo.efi</string>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
 				<key>RealPath</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>TpmInfo.efi</string>
 				<key>TextMode</key>
 				<false/>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+				<key>Path</key>
+				<string>TpmInfo.efi</string>
+				<key>Auxiliary</key>
+				<true/>
 			</dict>
 		</array>
 	</dict>
@@ -1373,7 +1382,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 igfxfw=2</string>
+				<string>-v keepsyms=1 debug=0x100 agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
