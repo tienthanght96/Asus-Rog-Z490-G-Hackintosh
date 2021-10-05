@@ -9,7 +9,8 @@
 | CPU         | Intel Core i7-10700K                     |
 | Motherboard | ASUS ROG STRIX Z490-G GAMING WIFI        |
 | RAM         | Corsair Vengeance RGB Pro 8GB X 2 3200Hz |
-| GPU         | Nitro+ RX 5500 XT 8G                     |
+| GPU 1       | Nitro+ RX 5500 XT 8G                     |
+| GPU 2       | Asrock RX 5700 XT Challenger D 8G OC     |
 | Case        | NZXT H510                                |
 | Cooler      | NOCTUA NH-D15 Chromax Black              |
 | PSU         | Corsair RM Series RM750 - 750W           |
@@ -73,6 +74,10 @@ OpenCore setup was made according to https://dortania.github.io/OpenCore-Install
 
 - Unstable Wi-Fi, sometimes can not connect or show list networks
 
-### Benchmark
+### Benchmark CPU
 
 ![About this mac](images/Benchmark.png)
+
+### Benchmark 5700XT OpenCL Score
+
+![5700XT Open Core](images/BenchmarkOpenCL.png)
