@@ -4,21 +4,20 @@
 
 ### Hardware
 
-| Device      | Model                                    |
-| ----------- | ---------------------------------------- |
-| CPU         | Intel Core i7-10700K                     |
-| Motherboard | ASUS ROG STRIX Z490-G GAMING WIFI        |
-| RAM         | Corsair Vengeance RGB Pro 8GB X 2 3200Hz |
-| GPU 1       | Nitro+ RX 5500 XT 8G                     |
-| GPU 2       | Asrock RX 5700 XT Challenger D 8G OC     |
-| Case        | NZXT H510                                |
-| Cooler      | NOCTUA NH-D15 Chromax Black              |
-| PSU         | Corsair RM Series RM750 - 750W           |
-| Monitors    | Dell P2419H - LG 27GL850                 |
+| Device      | Model                                 |
+| ----------- | ------------------------------------- |
+| CPU         | Intel Core i7-10700K                  |
+| Motherboard | ASUS ROG STRIX Z490-G GAMING WIFI     |
+| RAM         | Corsair LPX 8GB X 2 3600Hz            |
+| GPU 2       | XFX Merc 319 6900 XT LIMITED BLACK OC |
+| Case        | NZXT H510                             |
+| Cooler      | NOCTUA NH-D15 Chromax Black           |
+| PSU         | Corsair RM Series RM750 - 750W        |
+| Monitors    | Dell P2419H - LG 27GL850              |
 
 ### Software
 
-- Bootloader: OpenCore 0.7.1
+- Bootloader: OpenCore 0.7.1 (5700XT) - OpenCore 0.7.4 (6900XT)
 - OS: macOS Big Sur 11.4
 
 OpenCore setup was made according to https://dortania.github.io/OpenCore-Install-Guide/
